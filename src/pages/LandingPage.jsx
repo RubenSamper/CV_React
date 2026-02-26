@@ -20,7 +20,7 @@ export default function LandingPage() {
                     zIndex: 0,
                     mt: { xs: "56px", sm: "64px" },
                     py: { xs: 6, md: 10 },
-                    backgroundImage: "url(/header.jpg)",
+                    backgroundImage: "url(./header.jpg)",
                     width: "100vw",
 
                     backgroundSize: "cover",
@@ -81,7 +81,7 @@ export default function LandingPage() {
                         <Grid container spacing={3} alignItems="center" sx={{ backgroundColor: "#ffffff" }}>
                             <Grid item xs={12} sm={4}>
                                 <Avatar
-                                    src="/ruben.jpeg"
+                                    src="./ruben.jpeg"
                                     alt="Rubén Samper Cruz"
                                     sx={{ width: 160, height: 160, mx: { xs: "auto", sm: 0 } }}
                                 />
