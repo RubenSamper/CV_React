@@ -4,13 +4,16 @@ import { Card, CardMedia, CardContent, Typography, Button, Collapse, Box, } from
 export default function ProjectCard({ title, description, image, link, creator }) {
     const [open, setOpen] = useState(false);
 
+    // Se añade la BASE_URL para que sea relativo al path donde está desplegado el proyecto , en este caso CV_React
+    const imageUrl = `${import.meta.env.BASE_URL}${image}`;
+
     return (
         <Card sx={{ maxWidth: 380 }}>
             {image && (
                 <Box onClick={() => setOpen((v) => !v)} sx={{ cursor: "pointer" }}>
                     <CardMedia
                         component="img"
-                        image={image}
+                        image={imageUrl}
                         alt={title}
                         sx={{ height: 140, objectFit: "contain", p: 2 }}
                     />
