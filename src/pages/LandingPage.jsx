@@ -81,7 +81,7 @@ export default function LandingPage() {
                         <Grid container spacing={3} alignItems="center" sx={{ backgroundColor: "#ffffff" }}>
                             <Grid item xs={12} sm={4}>
                                 <Avatar
-                                    src="/public/ruben.jpeg"
+                                    src="/ruben.jpeg"
                                     alt="Rubén Samper Cruz"
                                     sx={{ width: 160, height: 160, mx: { xs: "auto", sm: 0 } }}
                                 />
@@ -104,7 +104,7 @@ export default function LandingPage() {
                                 <Typography color="text.secondary">- Puntual.</Typography>
                                 <Typography color="text.secondary">- Resolutivo.</Typography>
                                 <Typography color="text.secondary">
-                                    - Ganas de seguir aprendiendo en entorno laboral.
+                                    - Con ganas de seguir aprendiendo en entorno laboral.
                                 </Typography>
                             </Grid>
                         </Grid>
