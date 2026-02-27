@@ -4,7 +4,7 @@ import { Card, CardMedia, CardContent, Typography, Button, Collapse, Box, } from
 export default function ProjectCard({ title, description, image, link, creator }) {
     const [open, setOpen] = useState(false);
 
-    // Se añade la BASE_URL para que sea relativo al path donde está desplegado el proyecto , en este caso CV_React
+    // Se añade la BASE_URL para que sea relativo al path donde está desplegado el proyecto , en este caso CV_React (habia tenido problemas con las imaganes de los proyectos)
     const imageUrl = `${import.meta.env.BASE_URL}${image}`;
 
     return (
