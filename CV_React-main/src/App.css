@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #3d3b39;
+}
+
+/*añade espacio para que no lo tape el header sticky */
+.landing {
+  flex: 1;
+  padding-top: 300px;
+  /* desktop */
+}
+
+/* móvil */
+@media (max-width: 600px) {
+  .rutas {
+    padding-top: 56px;
+  }
+}
