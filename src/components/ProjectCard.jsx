@@ -76,7 +76,8 @@ export default function ProjectCard({ title, description, image, link, tags, ext
               fontWeight: 600,
               transition: "all 0.3s",
               "&:hover": {
-                backgroundColor: "#1565c0",
+                backgroundColor: "#42a5f5",
+                color: "#fff",
                 transform: "translateY(-1px)",
                 boxShadow: 3,
               },
