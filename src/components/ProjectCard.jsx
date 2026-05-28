@@ -71,7 +71,16 @@ export default function ProjectCard({ title, description, image, link, tags, ext
             href={link}
             target="_blank"
             rel="noreferrer"
-            sx={{ textTransform: "none", fontWeight: 600 }}
+            sx={{
+              textTransform: "none",
+              fontWeight: 600,
+              transition: "all 0.3s",
+              "&:hover": {
+                backgroundColor: "#1565c0",
+                transform: "translateY(-1px)",
+                boxShadow: 3,
+              },
+            }}
           >
             Ver proyecto
           </Button>
