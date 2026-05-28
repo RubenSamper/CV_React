@@ -12,7 +12,7 @@ export default function ContactPage() {
                         <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0" />
                     </svg>
                     <Typography margin={"20px"} fontSize={"20px"} color="#3d3b39">
-                        684232981
+                        +34 684 232 981
                     </Typography>
                 </Box>
 
@@ -30,7 +30,7 @@ export default function ContactPage() {
                         <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
                     </svg>
                     <Typography margin={"20px"} fontSize={"20px"} color="#3d3b39">
-                        rubensamper21@gmail.com
+                        rubensamper27@gmail.com
                     </Typography>
                 </Box>
             </Box>

@@ -12,54 +12,75 @@ export const translations = {
         landing: {
             heroTitle: "Hola, soy Rubén Samper Cruz",
             heroSubtitle:
-                "Estudiante de Desarrollo de Aplicaciones Web. Me gusta crear interfaces limpias y proyectos con React.",
+                "Desarrollador de Aplicaciones Web recién titulado. Especializado en frontend con React y con ganas de aportar valor en un equipo profesional.",
             githubBtn: "MI GITHUB",
             contactBtn: "CONTACTO",
+            projectsBtn: "VER PROYECTOS",
         },
 
         about: {
             title: "Sobre mí",
             text:
-                "Soy estudiante de DAW en el IES Al-Ándalus (Almería). Me interesa el desarrollo frontend con React y el diseño de interfaces.",
-            skillsTitle: "Habilidades a destacar",
+                "Recién titulado en Desarrollo de Aplicaciones Web (DAW) en el IES Al-Ándalus (Almería). Durante mi formación he adquirido competencias sólidas en desarrollo frontend y backend, trabajando con tecnologías modernas como React, Laravel y bases de datos relacionales.",
+            text2:
+                "Me considero una persona responsable, con capacidad de aprendizaje rápido y muchas ganas de crecer profesionalmente en el sector del desarrollo web. Busco mi primera oportunidad laboral para seguir aprendiendo y aportar valor.",
+            skillsTitle: "Tecnologías y herramientas",
             skills: [
-                "Puntual.",
-                "Resolutivo.",
-                "Ganas de seguir aprendiendo en entorno laboral.",
+                "React", "JavaScript", "HTML5 & CSS3", "Material UI",
+                "Git & GitHub", "Laravel", "PHP", "Python",
+                "Diseño Responsive", "UX/UI", "SQL", "API REST",
             ],
         },
 
         experience: {
-            title: "Experience", // (en tu captura sale en inglés; si lo quieres en español cámbialo a "Experiencia")
-            card: {
-                role: "Estudiante de 2º Año de Desarrollo de Aplicaciones Web",
-                place: "Almería, IES Al-Ándalus",
-                dates: "2021-2026",
-                details: [
-                    "Apasionado por el desarrollo de aplicaciones web",
-                    "Aprendiendo React, React Router y Material UI",
-                    "Creando componentes reutilizables",
-                    "Aprendiendo Laravel",
-                    "Titulación de CISCO de programación avanzada en python",
-                ],
-            },
+            title: "Formación y experiencia",
+            items: [
+                {
+                    role: "Técnico Superior en Desarrollo de Aplicaciones Web",
+                    place: "IES Al-Ándalus, Almería",
+                    dates: "2022-2026",
+                    details: [
+                        "Formación profesional en desarrollo frontend y backend",
+                        "Proyectos con React, JavaScript, HTML5, CSS3 y Material UI",
+                        "Desarrollo backend con Laravel y PHP",
+                        "Bases de datos MySQL y SQL",
+                        "Metodologías ágiles y control de versiones con Git",
+                        "Diseño de interfaces responsive y experiencia de usuario (UX/UI)",
+                    ],
+                },
+                {
+                    role: "Formación en Centros de Trabajo (FCT) — Prácticas profesionales",
+                    place: "Empresa del sector TIC, Almería",
+                    dates: "2026",
+                    details: [
+                        "Desarrollo y mantenimiento de aplicaciones web en entorno real",
+                        "Trabajo en equipo con metodologías ágiles (Scrum)",
+                        "Colaboración en proyectos frontend con tecnologías modernas",
+                        "Depuración, testing y despliegue de aplicaciones",
+                    ],
+                },
+                {
+                    role: "Certificación CISCO — Programación Avanzada en Python",
+                    place: "CISCO Networking Academy",
+                    dates: "2025",
+                    details: [
+                        "Fundamentos de programación estructurada y orientada a objetos",
+                        "Estructuras de datos avanzadas y algoritmos",
+                        "Resolución de problemas complejos con Python",
+                    ],
+                },
+            ],
         },
 
         portfolio: {
             title: "Portfolio",
-            projectName: "KeyZone",
-            projectTitle: "Página web KeyZone",
-            projectDesc: "Desarrollo de página web para la asignatura de diseño de interfaces",
-            createdBy: "Creado por: Rubén Samper Cruz",
             viewProjectBtn: "VER PROYECTO",
-            closeBtn: "CERRAR",
+            moreInfoBtn: "MÁS INFO",
+            lessInfoBtn: "MENOS INFO",
         },
 
         contact: {
             title: "Contacto",
-            phone: "Teléfono",
-            location: "Localidad",
-            email: "Correo",
         },
 
         footer: {
@@ -80,54 +101,75 @@ export const translations = {
         landing: {
             heroTitle: "Hi, I'm Rubén Samper Cruz",
             heroSubtitle:
-                "Web Application Development student. I like building clean interfaces and React projects.",
+                "Recently graduated Web Application Developer. Specialized in React frontend and eager to contribute to a professional team.",
             githubBtn: "MY GITHUB",
             contactBtn: "CONTACT",
+            projectsBtn: "VIEW PROJECTS",
         },
 
         about: {
             title: "About me",
             text:
-                "I’m a Web Application Development student at IES Al-Ándalus (Almería). I’m interested in React frontend development and UI design.",
-            skillsTitle: "Key strengths",
+                "Recently graduated in Web Application Development (DAW) at IES Al-Ándalus (Almería). During my studies I gained solid skills in frontend and backend development, working with modern technologies such as React, Laravel, and relational databases.",
+            text2:
+                "I consider myself a responsible person with fast learning ability and a strong desire to grow professionally in the web development sector. I am looking for my first job opportunity to keep learning and add value.",
+            skillsTitle: "Technologies & tools",
             skills: [
-                "Punctual.",
-                "Problem-solver.",
-                "Eager to keep learning in a professional environment.",
+                "React", "JavaScript", "HTML5 & CSS3", "Material UI",
+                "Git & GitHub", "Laravel", "PHP", "Python",
+                "Responsive Design", "UX/UI", "SQL", "REST API",
             ],
         },
 
         experience: {
-            title: "Experience",
-            card: {
-                role: "2nd-year Web Application Development Student",
-                place: "Almería, IES Al-Ándalus",
-                dates: "2021–2026",
-                details: [
-                    "Passionate about web application development",
-                    "Learning React, React Router, and Material UI",
-                    "Building reusable components",
-                    "Learning Laravel",
-                    "CISCO certification in advanced Python programming",
-                ],
-            },
+            title: "Education & experience",
+            items: [
+                {
+                    role: "Higher Technician in Web Application Development",
+                    place: "IES Al-Ándalus, Almería",
+                    dates: "2022-2026",
+                    details: [
+                        "Professional training in frontend and backend development",
+                        "Projects with React, JavaScript, HTML5, CSS3 and Material UI",
+                        "Backend development with Laravel and PHP",
+                        "MySQL and SQL databases",
+                        "Agile methodologies and version control with Git",
+                        "Responsive interface design and user experience (UX/UI)",
+                    ],
+                },
+                {
+                    role: "Work Placement (FCT) — Professional internship",
+                    place: "ICT company, Almería",
+                    dates: "2026",
+                    details: [
+                        "Development and maintenance of web applications in a real environment",
+                        "Teamwork using Agile methodologies (Scrum)",
+                        "Collaboration on frontend projects with modern technologies",
+                        "Debugging, testing, and application deployment",
+                    ],
+                },
+                {
+                    role: "CISCO Certification — Advanced Python Programming",
+                    place: "CISCO Networking Academy",
+                    dates: "2025",
+                    details: [
+                        "Structured and object-oriented programming fundamentals",
+                        "Advanced data structures and algorithms",
+                        "Complex problem-solving with Python",
+                    ],
+                },
+            ],
         },
 
         portfolio: {
             title: "Portfolio",
-            projectName: "KeyZone",
-            projectTitle: "KeyZone website",
-            projectDesc: "Website project for the Interface Design course",
-            createdBy: "Created by: Rubén Samper Cruz",
             viewProjectBtn: "VIEW PROJECT",
-            closeBtn: "CLOSE",
+            moreInfoBtn: "MORE INFO",
+            lessInfoBtn: "LESS INFO",
         },
 
         contact: {
             title: "Contact",
-            phone: "Phone",
-            location: "Location",
-            email: "Email",
         },
 
         footer: {

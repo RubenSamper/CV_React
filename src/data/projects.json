@@ -1,16 +1,18 @@
 [
     {
-        "title": "Página web KeyZone",
-        "description": "Desarrollo de página web para la asignatura de diseño de interfaces",
+        "title": "KeyZone",
+        "description": "Tienda online de periféricos gaming desarrollada como proyecto final para la asignatura de Diseño de Interfaces Web.",
+        "extraDescription": "Catálogo completo de productos, carrito de compras y diseño responsive.",
         "image": "logoKeyZone.svg",
         "link": "https://rubensamper.github.io/-rubensamper-.github.io/",
-        "creator": "Rubén Samper Cruz"
+        "tags": ["HTML", "CSS", "JavaScript", "Diseño UX/UI"]
     },
     {
-        "title": "Pokedex",
-        "description": "Aplicación web de Pokedex creada con HTML, CSS y JavaScript",
+        "title": "Pokédex",
+        "description": "Aplicación web interactiva que consume la API de Pokémon para mostrar información detallada de todas las criaturas, con búsqueda, filtros, comparativas y modo oscuro.",
+        "extraDescription": "Más de 1000 Pokémon con datos en tiempo real, estadísticas y gráficos de evolución.",
         "image": "pokedex.svg",
         "link": "https://rubensamper.github.io/Pokedex/",
-        "creator": "Rubén Samper Cruz"
+        "tags": ["HTML", "CSS", "JavaScript", "API REST", "Manipulación del DOM"]
     }
 ]
