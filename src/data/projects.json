@@ -7,10 +7,10 @@
         "creator": "Rubén Samper Cruz"
     },
     {
-        "title": "Página web Demo",
-        "description": "Desarrollo de página web para mostrar mis conocimientos a Cash Borosa",
-        "image": "reporte.png",
-        "link": "https://rubensamper.github.io/demo-web/",
+        "title": "Pokedex",
+        "description": "Aplicación web de Pokedex creada con HTML, CSS y JavaScript",
+        "image": "pokedex.svg",
+        "link": "https://rubensamper.github.io/Pokedex/",
         "creator": "Rubén Samper Cruz"
     }
 ]
