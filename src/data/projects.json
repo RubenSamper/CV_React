@@ -9,10 +9,10 @@
     },
     {
         "title": "Pokédex",
-        "description": "Aplicación web interactiva que consume la API de Pokémon para mostrar información detallada de todas las criaturas, con búsqueda, filtros, comparativas y modo oscuro.",
-        "extraDescription": "Más de 1000 Pokémon con datos en tiempo real, estadísticas y gráficos de evolución.",
+        "description": "Aplicación web interactiva desarrollada en React que consume la API de Pokémon para mostrar información detallada de todas las criaturas, con búsqueda, filtros, comparativas y modo oscuro.",
+        "extraDescription": "Más de 1000 Pokémon con datos en tiempo real, estadísticas, gráficos de evolución y una interfaz moderna y responsive.",
         "image": "pokedex.svg",
-        "link": "https://rubensamper.github.io/Pokedex/",
-        "tags": ["HTML", "CSS", "JavaScript", "API REST", "Manipulación del DOM"]
+        "link": "https://rubensamper.github.io/PokedexReact/",
+        "tags": ["React", "API REST", "CSS", "JavaScript", "Responsive Design"]
     }
 ]
